@@ -36,6 +36,7 @@ Follow these steps to run the example:
 ---
 
 Feel free to explore the code in this folder to understand how declarative routing is implemented in this example.
+
 ## Tools Used in This Example
 
 This example leverages the following tools:
