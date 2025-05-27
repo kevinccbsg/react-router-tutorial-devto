@@ -1,9 +1,15 @@
 import { createBrowserRouter } from "react-router";
+import ContactsPage from "./pages/Contacts";
+import ContactForm from "./pages/ContactForm";
 
 const AppRoutes = createBrowserRouter([
   {
     path: "/",
-    element: <div>Home</div>,
+    Component: ContactsPage,
+  },
+  {
+    path: "/contacts/new",
+    Component: ContactForm,
   },
   {
     path: "/about",
