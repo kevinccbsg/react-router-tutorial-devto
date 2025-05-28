@@ -6,10 +6,12 @@ const AppRoutes = createBrowserRouter([
   {
     path: "/",
     Component: ContactsPage,
-  },
-  {
-    path: "/contacts/new",
-    Component: ContactForm,
+    children: [
+      {
+        path: "contacts/new",
+        Component: ContactForm,
+      },
+    ],
   },
   {
     path: "/about",

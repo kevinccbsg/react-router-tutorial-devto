@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 
@@ -52,7 +53,7 @@ const ContactsPage = () => {
       </div>
       {/* Detail View */}
       <div className="p-8">
-        Contact page
+        <Outlet />
       </div>
     </div>
   );
