@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Link, Outlet } from "react-router";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 
@@ -31,9 +31,9 @@ const ContactsPage = () => {
       {/* Sidebar */}
       <div className="border-r p-4 flex flex-col gap-4">
         <Button className="w-full" variant="secondary" asChild>
-          <a href="/contacts/new">
+          <Link to="/contacts/new" viewTransition>
             New
-          </a>
+          </Link>
         </Button>
         <ScrollArea className="flex-1">
         <div className="flex flex-col gap-1 mt-4">
@@ -43,9 +43,9 @@ const ContactsPage = () => {
               className="justify-start"
               asChild
             >
-              <a href={`/contacts/${contact.id}`}>
+              <Link to={`/contacts/${contact.id}`} viewTransition>
                 {contact.firstName} {contact.lastName}
-              </a>
+              </Link>
             </Button>
           ))}
         </div>
