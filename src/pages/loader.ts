@@ -14,5 +14,3 @@ export const loadContactDetail = async ({ params }: LoaderFunctionArgs) => {
   const contact = await fetchContactById(contactId);
   return { contact };
 };
-
-export default loadContacts;

@@ -1,7 +1,7 @@
 import { Link, Outlet, useLoaderData } from "react-router";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
-import loadContacts from "./loader";
+import { loadContacts } from "./loader";
 
 const ContactsPage = () => {
   const { contacts } = useLoaderData<typeof loadContacts>();

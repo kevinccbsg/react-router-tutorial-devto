@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import ContactsPage from "./pages/Contacts";
 import ContactForm from "./pages/ContactForm";
-import loadContacts, { loadContactDetail } from "./pages/loader";
+import { loadContacts } from "./pages/loader";
 import ContactsSkeletonPage from "./Layouts/HomeSkeleton";
 import ContactDetail from "./pages/ContactDetail";
 
@@ -9,12 +9,12 @@ const AppRoutes = createBrowserRouter([
   {
     path: "/",
     loader: loadContacts,
+    id: "root",
     HydrateFallback: ContactsSkeletonPage,
     Component: ContactsPage,
     children: [
       {
         path: "contacts/:contactId",
-        loader: loadContactDetail,
         Component: ContactDetail,
       },
       {
