@@ -35,7 +35,7 @@ export const fetchContacts = async () => {
 
 export const fetchContactById = async (id: string) => {
   const response = await api.get<Contact>(`/contacts/${id}`);
-  await delay(500); // Simulate network delay
+  await delay(5000); // Simulate network delay
   return response.data;
 };
 

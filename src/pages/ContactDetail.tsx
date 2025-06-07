@@ -1,5 +1,6 @@
 import { useParams, useRouteLoaderData } from "react-router";
 import { loadContacts } from "./loader";
+import ContactCard from "@/components/ContactCard/ContactCard";
 
 const ContactDetail = () => {
   const { contactId } = useParams<{ contactId: string }>(); // Needs TS type annotation
@@ -17,11 +18,13 @@ const ContactDetail = () => {
     return <div>Contact not found</div>;
   }
   return (
-    <div>
-      <h2>Contact Detail</h2>
-      <p>{contact.firstName}</p>
-      <p>{contact.username}</p>
-    </div>
+    <ContactCard
+      avatar={contact.avatar}
+      name={`${contact.firstName} ${contact.lastName}`}
+      username={contact.username}
+      favorite={contact.favorite}
+      id={contact.id}
+    />
   );
 }
 
