@@ -1,12 +1,17 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { Form, useNavigation } from 'react-router';
 
 const ContactForm = () => {
+  const navigation = useNavigation();
+  const isSubmitting = navigation.state === 'submitting' && navigation.formAction === '/contacts/new';
+  const isLoading = navigation.state === 'loading' && navigation.formAction === '/contacts/new';
+  const disabled = isSubmitting || isLoading;
   return (
     <div className="max-w-md mx-auto">
       <h1 className="text-2xl font-bold mb-4">Create New Contact</h1>
-      <form className="space-y-4">
+      <Form className="space-y-4" method="POST">
         <div>
           <Label className="mb-2" htmlFor="firstName">First Name</Label>
           <Input type="text" id="firstName" name="firstName" required />
@@ -31,10 +36,10 @@ const ContactForm = () => {
           <Label className="mb-2" htmlFor="avatar">Avatar (Optional)</Label>
           <Input type="url" id="avatar" name="avatar" />
         </div>
-        <Button type="submit">
-          Create Contact
+        <Button type="submit" disabled={disabled}>
+          {disabled ? 'Creating...' : 'Create Contact'}
         </Button>
-      </form>
+      </Form>
     </div>
   );
 };
