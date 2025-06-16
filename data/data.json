@@ -21,14 +21,6 @@
       "favorite": true
     },
     {
-      "id": "dd6d",
-      "firstName": "test",
-      "lastName": "test",
-      "username": "test",
-      "email": "test@test.com",
-      "phone": "213123"
-    },
-    {
       "id": "42c5",
       "firstName": "test",
       "lastName": "test",
@@ -37,28 +29,13 @@
       "phone": "123123"
     },
     {
-      "id": "e84b",
-      "firstName": "test",
-      "lastName": "test",
-      "username": "test",
-      "email": "test@test.com",
-      "phone": "13123123"
-    },
-    {
-      "id": "8804",
-      "firstName": "test",
-      "lastName": "test",
-      "username": "test",
-      "email": "test@test.com",
-      "phone": "13123123"
-    },
-    {
       "id": "9f9f",
       "firstName": "test",
       "lastName": "test",
       "username": "test",
       "email": "test@test.com",
-      "phone": "234234"
+      "phone": "234234",
+      "favorite": true
     }
   ]
 }

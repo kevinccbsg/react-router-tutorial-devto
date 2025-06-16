@@ -4,7 +4,7 @@ import ContactForm from "./pages/ContactForm";
 import { loadContacts } from "./pages/loader";
 import ContactsSkeletonPage from "./Layouts/HomeSkeleton";
 import ContactDetail from "./pages/ContactDetail";
-import { newContactAction } from "./pages/actions";
+import { contactDetailActions, newContactAction } from "./pages/actions";
 
 const AppRoutes = createBrowserRouter([
   {
@@ -16,6 +16,7 @@ const AppRoutes = createBrowserRouter([
     children: [
       {
         path: "contacts/:contactId",
+        action: contactDetailActions,
         Component: ContactDetail,
       },
       {
