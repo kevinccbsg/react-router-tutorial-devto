@@ -25,9 +25,9 @@ export const newContactAction = async ({ request }: ActionFunctionArgs) => {
         avatar: formData.get('avatar') as string || undefined,
       };
       // Añadir la validación que quieras zod, if-else, yup
-      if (!newContact.firstName) {
-        return { error: "First name is required." };
-      }
+      // if (!newContact.firstName) {
+      //   return { error: "First name is required." };
+      // }
       const newContactResponse = await createContact(newContact);
       return redirect(`/contacts/${newContactResponse.id}`);
     },
