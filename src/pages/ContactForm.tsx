@@ -1,24 +1,19 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Form, useActionData, useNavigation } from 'react-router';
+import { useFetcher } from 'react-router';
 import { newContactAction } from './actions';
 
 const ContactForm = () => {
-  const navigation = useNavigation();
-  const actionData = useActionData<typeof newContactAction>();
-  console.log('actionData', actionData);
-  
-  const isSubmitting = navigation.state === 'submitting' && navigation.formAction === '/contacts/new';
-  const isLoading = navigation.state === 'loading' && navigation.formAction === '/contacts/new';
-  const disabled = isSubmitting || isLoading;
+  const fetcher = useFetcher<typeof newContactAction>();
+  const disabled = fetcher.state === 'submitting' || fetcher.state === 'loading';
   return (
     <div className="max-w-md mx-auto">
       <h1 className="text-2xl font-bold mb-4">Create New Contact</h1>
-      <Form className="space-y-4" method="POST" noValidate>
-        {actionData?.error && (
+      <fetcher.Form className="space-y-4" method="POST" noValidate>
+        {fetcher.data?.error && (
           <div className="text-red-500 mb-4">
-            {actionData.error}
+            {fetcher.data.error}
           </div>
         )}
         <div>
@@ -48,7 +43,7 @@ const ContactForm = () => {
         <Button type="submit" disabled={disabled}>
           {disabled ? 'Creating...' : 'Create Contact'}
         </Button>
-      </Form>
+      </fetcher.Form>
     </div>
   );
 };
