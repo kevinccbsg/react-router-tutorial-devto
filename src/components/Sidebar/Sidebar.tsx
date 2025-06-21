@@ -9,7 +9,7 @@ interface Contact {
   name: string;
 }
 
-export default function Sidebar({ contacts }: { contacts: Contact[] }) {
+export default function Sidebar({ contacts, pendingContactName }: { contacts: Contact[], pendingContactName?: string }) {
   const { contactId } = useParams<{ contactId: string }>();
   const [search, setSearch] = useState("");
 
@@ -43,6 +43,14 @@ export default function Sidebar({ contacts }: { contacts: Contact[] }) {
               </NavLink>
             </Button>
           ))}
+          {pendingContactName && (
+            <Button
+              className="justify-start"
+              disabled
+            >
+                {pendingContactName}
+            </Button>
+          )}
         </div>
       </ScrollArea>
     </>
