@@ -23,7 +23,7 @@ export default function ContactsSkeletonPage() {
       </div>
 
       {/* Main Panel */}
-      <div className="flex-1 p-8">
+      <div className="flex-1 p-8" data-testid="main-panel-skeleton">
         <div className="space-y-4">
           <Skeleton className="h-8 w-1/3" />
           <Skeleton className="h-4 w-2/3" />

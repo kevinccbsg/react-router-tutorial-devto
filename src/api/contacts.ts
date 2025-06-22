@@ -4,7 +4,7 @@ const api = axios.create({
   baseURL: 'http://localhost:3001',
 });
 
-interface Contact {
+export interface Contact {
   id: string;
   firstName: string;
   lastName: string;

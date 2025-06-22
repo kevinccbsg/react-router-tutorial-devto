@@ -28,7 +28,7 @@ const ContactForm = () => {
   return (
     <div className="max-w-md mx-auto">
       <h1 className="text-2xl font-bold mb-4">Create New Contact</h1>
-      <form className="space-y-4" method="POST" noValidate onSubmit={handleSubmit(onSubmit)}>
+      <form className="space-y-4" method="POST" noValidate onSubmit={handleSubmit(onSubmit)} data-testid="contact-form">
         <div>
           <Label className="mb-2" htmlFor="firstName">First Name</Label>
           <Input type="text" id="firstName" {...register("firstName", { required: true })} />
