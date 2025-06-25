@@ -40,10 +40,10 @@ export default function ContactCard({ avatar, name, username, favorite, id }: Co
           <toggleFavFetcher.Form method="PATCH">
             <input type="hidden" name="id" value={id} />
             <input type="hidden" name="favorite" value={String(!favorite)} />
-            <Button type="submit" variant="ghost" disabled={optimisticToggleFav}>
+            <Button type="submit" variant="ghost" disabled={optimisticToggleFav} data-testid="toggle-favorite">
                 {optimisticToggleFav
-                ? (!favorite ? <Star className="w-4 h-4" /> : <StarOff className="w-4 h-4" />)
-                : (favorite ? <Star className="w-4 h-4" /> : <StarOff className="w-4 h-4" />)
+                ? (!favorite ? <Star className="w-4 h-4" aria-label="Favorite" /> : <StarOff className="w-4 h-4" aria-label="Not Favorite" />)
+                : (favorite ? <Star className="w-4 h-4" aria-label="Favorite" /> : <StarOff className="w-4 h-4" aria-label="Not Favorite" />)
                 }
             </Button>
           </toggleFavFetcher.Form>
