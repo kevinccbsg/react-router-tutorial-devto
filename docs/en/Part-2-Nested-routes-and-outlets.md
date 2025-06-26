@@ -1,6 +1,6 @@
 In this second part of our React Router v7 tutorial, we will dive deeper into the routing system: how to nest views within a shared layout, how to navigate without reloading the page using `Link`, and how to add visual transitions for a smoother experience.
 
-If you're coming from the [previous tutorial](https://dev.to/kevinccbsg/react-router-data-mode-parte-1-instalacion-y-primeras-rutas-ok9), you can leave the project as it is, but if you want to ensure everything is clean or start from the same point, you can run the following commands:
+If you're coming from the [previous tutorial](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-1%E2%80%93Installation-and-first-routes.md), you can leave the project as it is, but if you want to ensure everything is clean or start from the same point, you can run the following commands:
 
 ```bash
 ## Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -263,4 +263,4 @@ So far, we've achieved:
 In the next part, we will do something very powerful: render dynamic data based on the URL and learn how to use loaders to fetch data.
 Let's dive into the magic of React Router v7!
 
-See you in [part 3](https://dev.to/kevinccbsg/react-router-data-mode-parte-3-loaders-y-carga-de-datos-3bn1).
+See you in [part 3](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-3-Loaders.md).

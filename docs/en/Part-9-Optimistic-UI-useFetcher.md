@@ -3,7 +3,7 @@ This time, we'll talk about a very interesting concept that is quite easy to imp
 
 ---
 
-If you're coming from the [previous post](https://dev.to/kevinccbsg/react-router-data-mode-parte-8-validaciones-usefetcher-y-react-hook-form-4e5p), you can continue with your project as is. But if you prefer to start fresh or make sure you're at the exact point, run the following commands:
+If you're coming from the [previous post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-8-validation-useFetcher-React-Hook-Form.md), you can continue with your project as is. But if you prefer to start fresh or make sure you're at the exact point, run the following commands:
 
 ```bash
 # Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -261,5 +261,5 @@ If you want to see this in action, I recommend this [Remix video](https://www.yo
 In the next and final post of the series, we'll talk about testing.
 A key part of any serious development, and one that is often left for last (when it shouldn't be).
 
-See you in the [next installment](https://dev.to/kevinccbsg/react-router-data-mode-parte-10-testing-con-vitest-y-react-testing-library-38ba)!
+See you in the [next installment](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-10-Testing-Vitest-React-Testing-Library.md)!
 

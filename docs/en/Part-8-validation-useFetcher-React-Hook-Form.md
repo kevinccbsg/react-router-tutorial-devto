@@ -8,7 +8,7 @@ To answer them, we'll look at different ways to validate data in an `action`. We
 
 ---
 
-If you're coming from the [previous post](https://dev.to/kevinccbsg/react-router-data-mode-parte-7-multiples-acciones-y-manejo-de-formularios-en-una-sola-pagina-4bm9), you can continue with your project as is. But if you prefer to start fresh or make sure you're at the exact point, run the following commands:
+If you're coming from the [previous post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-7-multiple-actions-forms.md), you can continue with your project as is. But if you prefer to start fresh or make sure you're at the exact point, run the following commands:
 
 ```bash
 # Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -292,4 +292,4 @@ In this post we saw:
 We'll apply `useFetcher` to delete and favorite actions, and talk about a super interesting concept: **Optimistic UI**.
 This will let us improve the user experience with instant updates before the server confirms the operation.
 
-See you in the [next installment](https://dev.to/kevinccbsg/react-router-data-mode-parte-9-optimistic-ui-con-usefetcher-dmb)!
+See you in the [next post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-9-Optimistic-UI-useFetcher.md)!

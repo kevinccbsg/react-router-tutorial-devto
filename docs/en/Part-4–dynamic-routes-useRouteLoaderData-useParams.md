@@ -2,7 +2,7 @@ We continue with the fourth installment of this series on React Router data mode
 
 ---
 
-If you’re coming from the [previous post](https://dev.to/kevinccbsg/react-router-data-mode-parte-3-loaders-y-carga-de-datos-3bn1), you can continue with your project as is. But if you prefer to start fresh or make sure you’re at the exact point, run the following commands:
+If you’re coming from the [previous post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-3-Loaders.md), you can continue with your project as is. But if you prefer to start fresh or make sure you’re at the exact point, run the following commands:
 
 ```bash
 # Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -264,5 +264,5 @@ Now we have navigation between contacts working with already loaded data, withou
 
 ---
 
-In [part 5](https://dev.to/kevinccbsg/react-router-data-mode-parte-5-refactor-useparams-y-navlink-1bbe) we’ll improve the detail design and refactor navigation, making sure the active link is correctly marked.
+In [part 5](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-5-refactor-useParams-NavLink.md) we’ll improve the detail design and refactor navigation, making sure the active link is correctly marked.
 See you in the next one!

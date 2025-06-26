@@ -2,7 +2,7 @@ We continue with the seventh installment of this series on React Router Data Mod
 
 ---
 
-If you're coming from the [previous post](https://dev.to/kevinccbsg/react-router-data-mode-parte-6-actions-formularios-y-mutaciones-5354), you can continue with your project as is. But if you prefer to start fresh or make sure you're at the exact point, run the following commands:
+If you're coming from the [previous post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-6-Actions-form-mutations.md), you can continue with your project as is. But if you prefer to start fresh or make sure you're at the exact point, run the following commands:
 
 ```bash
 # Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -164,4 +164,4 @@ We'll cover this in the next post.
 - **Why is there a slight delay when deleting or updating?**
 We added that delay on purpose to simulate slow API behavior. Later, we'll talk about how to improve the experience using techniques like Optimistic UI.
 
-See you in the [next installment](https://dev.to/kevinccbsg/react-router-data-mode-parte-8-validaciones-usefetcher-y-react-hook-form-4e5p). This post covers one of the most important concepts in the series, but there are still many interesting topics to explore.
+See you in the [next installment](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-8-validation-useFetcher-React-Hook-Form.md). This post covers one of the most important concepts in the series, but there are still many interesting topics to explore.

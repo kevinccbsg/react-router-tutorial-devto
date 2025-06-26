@@ -1,6 +1,6 @@
 Let's move on to the third part of this tutorial series. In this case, we'll look at a concept that comes from Remix and can now also be found in React Router: **loaders**.
 
-If you're coming from the [previous tutorial](https://dev.to/kevinccbsg/react-router-data-mode-parte-2-rutas-anidadas-y-outlets-4i17), you can leave the project as is, but if you want to make sure everything is clean or start from the same point, you can run the following commands:
+If you're coming from the [previous tutorial](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-2-Nested-routes-and-outlets.md), you can leave the project as is, but if you want to make sure everything is clean or start from the same point, you can run the following commands:
 
 ```bash
 # Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -263,4 +263,4 @@ And with this, we now have a loading screen. The best part is that this can be a
 We'll see this in more detail in the next post about loaders.
 Without a doubt, this is one of the most important and powerful parts of React Router, and it will be even more so when we combine it with _actions_.
 
-See you in [part 4](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd)!
+See you in [part 4](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-4%E2%80%93dynamic-routes-useRouteLoaderData-useParams.md)!

@@ -2,7 +2,7 @@ We continue with the **fifth part** of this series on React Router Data Mode. Th
 
 ---
 
-If you’re coming from the [previous post](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd), you can continue with your project as is. But if you prefer to start fresh or make sure you’re at the exact point, run the following commands:
+If you’re coming from the [previous post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-4%E2%80%93dynamic-routes-useRouteLoaderData-useParams.md), you can continue with your project as is. But if you prefer to start fresh or make sure you’re at the exact point, run the following commands:
 
 ```bash
 # Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -237,6 +237,6 @@ In our case, since we use ShadCN’s `Button`, we don’t take advantage of NavL
 
 ---
 
-And that’s it for this part. In the [next post](https://dev.to/kevinccbsg/react-router-data-mode-parte-6-actions-formularios-y-mutaciones-5354) we’ll dive into actions, another interesting concept inherited from Remix, which will allow us to start making mutations within the app 💥
+And that’s it for this part. In the [next post](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-6-Actions-form-mutations.md) we’ll dive into actions, another interesting concept inherited from Remix, which will allow us to start making mutations within the app 💥
 
 See you next time!
