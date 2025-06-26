@@ -9,7 +9,7 @@ Este post está organizado en 4 bloques:
 3. Test de formularios
 4. Test de la vista de detalle y Optimistic UI
 
-Si vienes del [post anterior](https://dev.to/kevinccbsg/react-router-data-mode-parte-9-optimistic-ui-con-usefetcher-dmb), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
+Si vienes del [post anterior](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-9-Optimistic-UI-con-useFetcher.md), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
 
 ```bash
 # Enlace del repositorio https://github.com/kevinccbsg/react-router-tutorial-devto

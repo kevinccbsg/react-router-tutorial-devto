@@ -2,7 +2,7 @@ Continuamos con la **quinta entrega** de esta serie sobre React Router Data Mode
 
 ---
 
-Si vienes del [post anterior](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
+Si vienes del [post anterior](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-4%E2%80%93Rutas-con-par%C3%A1metros-useRouteLoaderData-y-useParams.md), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
 
 ```bash
 # Enlace del repositorio https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -237,6 +237,6 @@ En nuestro caso, como usamos `Button` de ShadCN, no aprovechamos las classes CSS
 
 ---
 
-Y eso sería todo por esta parte. En la [siguiente entrega](https://dev.to/kevinccbsg/react-router-data-mode-parte-6-actions-formularios-y-mutaciones-5354) entraremos con actions, otro concepto heredado de Remix muy interesante, que nos permitirá empezar a hacer mutaciones dentro de la app 💥
+Y eso sería todo por esta parte. En la [siguiente entrega](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-6-Actions-formularios-mutaciones.md) entraremos con actions, otro concepto heredado de Remix muy interesante, que nos permitirá empezar a hacer mutaciones dentro de la app 💥
 
 ¡Nos vemos en la próxima!

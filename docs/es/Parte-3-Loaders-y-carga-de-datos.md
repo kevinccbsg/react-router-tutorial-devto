@@ -1,6 +1,6 @@
 Vamos con la tercera parte de esta serie de tutoriales. En este caso, veremos un concepto que viene de Remix y que ahora también podemos encontrar en React Router: los **loaders**.
 
-Si vienes del [tutorial anterior](https://dev.to/kevinccbsg/react-router-data-mode-parte-2-rutas-anidadas-y-outlets-4i17), puedes dejar el proyecto tal cual, pero si quieres asegurarte de que todo esté limpio o empezar desde el mismo punto, puedes ejecutar los siguientes comandos:
+Si vienes del [tutorial anterior](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-2-Rutas-anidadas-y-outlets.md), puedes dejar el proyecto tal cual, pero si quieres asegurarte de que todo esté limpio o empezar desde el mismo punto, puedes ejecutar los siguientes comandos:
 
 ```bash
 # Enlace del repositorio https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -264,4 +264,4 @@ Y con esto ya tenemos una pantalla de carga. Lo mejor es que esto se puede aplic
 Esto lo veremos en más detalle en el siguiente post sobre loaders.
 Sin duda, es una de las partes más importantes y potentes de React Router, y lo será aún más cuando lo combinemos con las _actions_.
 
-¡Nos vemos en la [parte 4](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd)!
+¡Nos vemos en la [parte 4](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-4%E2%80%93Rutas-con-par%C3%A1metros-useRouteLoaderData-y-useParams.md)!

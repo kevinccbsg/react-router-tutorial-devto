@@ -1,8 +1,8 @@
 En esta segunda entrega de nuestro tutorial de React Router v7, vamos a profundizar en el sistema de rutas: cómo anidar vistas dentro de un layout compartido, cómo navegar sin recargar la página usando `Link`, y cómo añadir transiciones visuales para una experiencia más fluida.
 
-Si vienes del [tutorial anterior](https://dev.to/kevinccbsg/react-router-data-mode-parte-1-instalacion-y-primeras-rutas-ok9), puedes dejar el proyecto tal cual, pero si quieres asegurarte de que todo esté limpio o empezar desde el mismo punto, puedes ejecutar los siguientes comandos:
+Si vienes del [tutorial anterior](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-1%E2%80%93Instalaci%C3%B3n-y-primeras-rutas.md), puedes dejar el proyecto tal cual, pero si quieres asegurarte de que todo esté limpio o empezar desde el mismo punto, puedes ejecutar los siguientes comandos:
 
-```bash`
+```bash
 ## Enlace del repositorio https://github.com/kevinccbsg/react-router-tutorial-devto
 git reset --hard
 git clean -d -f
@@ -260,5 +260,5 @@ Hasta ahora hemos conseguido:
 En la siguiente parte vamos a hacer algo muy potente: renderizar datos dinámicos en función de la URL y aprender a usar loader para cargar datos.
 ¡Nos metemos de lleno en la magia de React Router v7!
 
-Nos vemos en la [parte 3](https://dev.to/kevinccbsg/react-router-data-mode-parte-3-loaders-y-carga-de-datos-3bn1).
+Nos vemos en la [parte 3](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-3-Loaders-y-carga-de-datos.md).
 

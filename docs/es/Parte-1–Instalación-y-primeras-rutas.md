@@ -2,16 +2,16 @@ en esta serie nos vamos a centrar en el **modo Data**, que sin duda es mi favori
 
 Esta serie tendrá varias partes, que puedes ver a continuación:
 
-1. [Instalación y primeras rutas](https://dev.to/kevinccbsg/react-router-data-mode-parte-1-instalacion-y-primeras-rutas-ok9/edit)
-2. [Rutas anidadas y Outlet](https://dev.to/kevinccbsg/react-router-data-mode-parte-2-rutas-anidadas-y-outlets-4i17)
-3. [Loaders](https://dev.to/kevinccbsg/react-router-data-mode-parte-3-loaders-y-carga-de-datos-3bn1)
-4. [Rutas con parámetros, useRouteLoaderData y useParams](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd)
-5. [useParams, Navlink](https://dev.to/kevinccbsg/react-router-data-mode-parte-5-refactor-useparams-y-navlink-1bbe)
-6. [Actions](https://dev.to/kevinccbsg/react-router-data-mode-parte-6-actions-formularios-y-mutaciones-5354)
-7. [Múltiples acciones y manejo de formularios en una sola página](https://dev.to/kevinccbsg/react-router-data-mode-parte-7-multiples-acciones-y-manejo-de-formularios-en-una-sola-pagina-4bm9)
-8. [Validación de formularios y uso de fetcher](https://dev.to/kevinccbsg/react-router-data-mode-parte-8-validaciones-usefetcher-y-react-hook-form-4e5p)
-9. [Optimistic UI con useFetcher](https://dev.to/kevinccbsg/react-router-data-mode-parte-9-optimistic-ui-con-usefetcher-dmb)
-10. [Testing con Vitest y React Testing Library](https://dev.to/kevinccbsg/react-router-data-mode-parte-10-testing-con-vitest-y-react-testing-library-38ba)
+1. [Instalación y primeras rutas](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-1%E2%80%93Instalaci%C3%B3n-y-primeras-rutas.md)
+2. [Rutas anidadas y Outlet](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-2-Rutas-anidadas-y-outlets.md)
+3. [Loaders](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-3-Loaders-y-carga-de-datos.md)
+4. [Rutas con parámetros, useRouteLoaderData y useParams](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-4%E2%80%93Rutas-con-par%C3%A1metros-useRouteLoaderData-y-useParams.md)
+5. [useParams, Navlink](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-5-refactor-useParams-y-NavLink.md)
+6. [Actions](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-6-Actions-formularios-mutaciones.md)
+7. [Múltiples acciones y manejo de formularios en una sola página](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-7-M%C3%BAltiples-acciones-y-manejo-de-formularios.md)
+8. [Validación de formularios y uso de fetcher](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-8-Validaciones-useFetcher-y-React-Hook-Form.md)
+9. [Optimistic UI con useFetcher](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-9-Optimistic-UI-con-useFetcher.md)
+10. [Testing con Vitest y React Testing Library](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-10-Testing-con-Vitest-y-React-Testing-Library.md)
 
 Todas las partes estarán explicadas en este repositorio, que ya viene preparado con algunos componentes y librerías de estilos como **shadcn/ui** y **Tailwind**.
 
@@ -116,4 +116,4 @@ createRoot(document.getElementById('root')!).render(
 
 En la siguiente parte vamos a construir la estructura real de la aplicación, ver cómo se usan los `Outlet` para anidar rutas, los `Link` y crear un layout base.
 
-Nos vemos en la [parte 2](https://dev.to/kevinccbsg/react-router-data-mode-parte-2-rutas-anidadas-y-outlets-4i17).
+Nos vemos en la [parte 2](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-2-Rutas-anidadas-y-outlets.md).

@@ -2,7 +2,7 @@ Continuamos con la sexta entrega de esta serie sobre React Router Data Mode. En 
 
 ---
 
-Si vienes del [post anterior](https://dev.to/kevinccbsg/react-router-data-mode-parte-5-refactor-useparams-y-navlink-1bbe), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
+Si vienes del [post anterior](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-5-refactor-useParams-y-NavLink.md), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
 
 ```bash
 # Enlace del repositorio https://github.com/kevinccbsg/react-router-tutorial-devto
@@ -258,4 +258,4 @@ Quizá te preguntes: ¿qué pasa con la validación? ¿y si tengo varias actions
 
 Todo eso lo veremos en la próxima entrega: **cómo gestionar múltiples actions, validaciones y acciones que no dependen de un** `<Form>`.
 
-¡Nos vemos en la [siguiente](https://dev.to/kevinccbsg/react-router-data-mode-parte-7-multiples-acciones-y-manejo-de-formularios-en-una-sola-pagina-4bm9)!
+¡Nos vemos en la [siguiente](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/es/Parte-7-M%C3%BAltiples-acciones-y-manejo-de-formularios.md)!
