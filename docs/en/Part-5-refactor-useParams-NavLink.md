@@ -1,11 +1,11 @@
-Continuamos con la **quinta entrega** de esta serie sobre React Router Data Mode. En esta ocasión, será un post breve donde haremos algunos refactors y repasaremos el hook `useParams`, además de mejorar la navegación con `NavLink`.
+We continue with the **fifth part** of this series on React Router Data Mode. This time, it will be a brief post where we’ll do some refactors, review the `useParams` hook, and improve navigation with `NavLink`.
 
 ---
 
-Si vienes del [post anterior](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd), puedes continuar con tu proyecto tal cual. Pero si prefieres empezar limpio o asegurarte de estar en el punto exacto, ejecuta los siguientes comandos:
+If you’re coming from the [previous post](https://dev.to/kevinccbsg/react-router-data-mode-parte-4-rutas-con-parametros-userouteloaderdata-y-useparams-4ccd), you can continue with your project as is. But if you prefer to start fresh or make sure you’re at the exact point, run the following commands:
 
 ```bash
-# Enlace del repositorio https://github.com/kevinccbsg/react-router-tutorial-devto
+# Repository link https://github.com/kevinccbsg/react-router-tutorial-devto
 git reset --hard
 git clean -d -f
 git checkout 04-refactor-sidebar-detail
@@ -13,9 +13,9 @@ git checkout 04-refactor-sidebar-detail
 
 ## Refactor
 
-Empezamos mejorando la vista de detalle.
+Let’s start by improving the detail view.
 
-Creamos `src/components/ContactCard/ContactCard.tsx`:
+Create `src/components/ContactCard/ContactCard.tsx`:
 
 ```tsx
 import { Form } from "react-router";
@@ -65,7 +65,7 @@ export default function ContactCard({ avatar, name, username, favorite, id }: Co
 }
 ```
 
-Luego actualizamos la página de detalle `src/pages/ContactDetail.tsx` para usar ese nuevo componente:
+Then update the detail page `src/pages/ContactDetail.tsx` to use this new component:
 
 ```tsx
 import { useParams, useRouteLoaderData } from "react-router";
@@ -101,7 +101,7 @@ const ContactDetail = () => {
 export default ContactDetail;
 ```
 
-Ahora creamos el componente `src/components/Sidebar/Sidebar.tsx`:
+Now create the component `src/components/Sidebar/Sidebar.tsx`:
 
 ```tsx
 import { Input } from "@/components/ui/input"
@@ -154,10 +154,10 @@ export default function Sidebar({ contacts }: { contacts: Contact[] }) {
 }
 ```
 
-Este componente ya incorpora búsqueda local, aunque no será el foco en este post.
-Lo importante aquí es la navegación.
+This component already includes local search, although that won’t be the focus of this post.
+The important thing here is navigation.
 
-Actualizamos la página principal `pages/contacts.tsx`:
+Update the main page `pages/contacts.tsx`:
 
 ```tsx
 import { Outlet, useLoaderData } from "react-router";
@@ -186,15 +186,15 @@ const ContactsPage = () => {
 export default ContactsPage;
 ```
 
-## ¿Cómo marcamos el enlace activo?
+## How do we mark the active link?
 
-Para marcar correctamente qué contacto está seleccionado, usamos el hook `useParams`:
+To correctly indicate which contact is selected, we use the `useParams` hook:
 
 ```ts
 const { contactId } = useParams<{ contactId: string }>();
 ```
 
-Y con eso, ajustamos el botón en la lista de contactos:
+And with that, adjust the button in the contact list:
 
 ```tsx
 <Button
@@ -209,18 +209,18 @@ Y con eso, ajustamos el botón en la lista de contactos:
 </Button>
 ```
 
-Con este cambio, ya se muestra correctamente el contacto activo en el listado.
+With this change, the active contact is now correctly shown in the list.
 
-## ¿Y NavLink?
+## What about NavLink?
 
-React Router también incluye el componente https://reactrouter.com/api/components/NavLink#props, que extiende `Link` con mejoras para los estados `active` y `pending`.
+React Router also includes the component https://reactrouter.com/api/components/NavLink#props, which extends `Link` with improvements for the `active` and `pending` states.
 
-En concreto:
+Specifically:
 
-- Aplica automáticamente classes al link cuando el enlace está activo o pendiente.
-- Añade el atributo `aria-current="page"` cuando el enlace representa la ruta actual.
+- It automatically applies classes to the link when it’s active or pending.
+- It adds the attribute `aria-current="page"` when the link represents the current route.
 
-En nuestro caso, como usamos `Button` de ShadCN, no aprovechamos las classes CSS de `NavLink`, pero sí podemos beneficiarnos de su soporte de accesibilidad (aria-current), lo cual es una buena práctica para navegaciones como esta.
+In our case, since we use ShadCN’s `Button`, we don’t take advantage of NavLink’s CSS classes, but we can benefit from its accessibility support (aria-current), which is a good practice for navigations like this.
 
 ```tsx
 <Button
@@ -237,6 +237,6 @@ En nuestro caso, como usamos `Button` de ShadCN, no aprovechamos las classes CSS
 
 ---
 
-Y eso sería todo por esta parte. En la [siguiente entrega](https://dev.to/kevinccbsg/react-router-data-mode-parte-6-actions-formularios-y-mutaciones-5354) entraremos con actions, otro concepto heredado de Remix muy interesante, que nos permitirá empezar a hacer mutaciones dentro de la app 💥
+And that’s it for this part. In the [next post](https://dev.to/kevinccbsg/react-router-data-mode-parte-6-actions-formularios-y-mutaciones-5354) we’ll dive into actions, another interesting concept inherited from Remix, which will allow us to start making mutations within the app 💥
 
-¡Nos vemos en la próxima!
+See you next time!
