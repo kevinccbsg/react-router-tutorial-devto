@@ -1,4 +1,4 @@
-We continue with the sixth installment of this series on React Router Data Mode. This time, we'll talk about **actions**: one of the key pieces for data handling that React Router offers.
+We continue with the sixth part of this series on React Router Data Mode. This time, we'll talk about **actions**: one of the key pieces for data handling that React Router offers.
 
 ---
 
@@ -256,6 +256,6 @@ That's it for this sixth part, where we've created an action, handled the form, 
 
 You might be wondering: what about validation? What if I have multiple actions on the same page, like editing or deleting contacts?
 
-We'll cover all that in the next installment: **how to handle multiple actions, validations, and actions that don't depend on a** `<Form>`.
+We'll cover all that in the next part: **how to handle multiple actions, validations, and actions that don't depend on a** `<Form>`.
 
 See you in the [next one](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-7-multiple-actions-forms.md)!

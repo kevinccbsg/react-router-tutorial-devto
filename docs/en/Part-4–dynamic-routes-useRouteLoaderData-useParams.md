@@ -1,4 +1,4 @@
-We continue with the fourth installment of this series on React Router data mode. This time, we’ll dive deeper into _loaders_, first by adding a contact detail screen and then exploring hooks like `useRouteLoaderData` and `useParams`.
+We continue with the fourth part of this series on React Router data mode. This time, we’ll dive deeper into _loaders_, first by adding a contact detail screen and then exploring hooks like `useRouteLoaderData` and `useParams`.
 
 ---
 

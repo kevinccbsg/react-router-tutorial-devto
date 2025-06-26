@@ -1,4 +1,4 @@
-We continue with the seventh installment of this series on React Router Data Mode. This time, we'll dive deeper into using _actions_ and how to handle multiple mutations within the same page: the contact detail page.
+We continue with the seventh part of this series on React Router Data Mode. This time, we'll dive deeper into using _actions_ and how to handle multiple mutations within the same page: the contact detail page.
 
 ---
 
@@ -164,4 +164,4 @@ We'll cover this in the next post.
 - **Why is there a slight delay when deleting or updating?**
 We added that delay on purpose to simulate slow API behavior. Later, we'll talk about how to improve the experience using techniques like Optimistic UI.
 
-See you in the [next installment](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-8-validation-useFetcher-React-Hook-Form.md). This post covers one of the most important concepts in the series, but there are still many interesting topics to explore.
+See you in the [next part](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-8-validation-useFetcher-React-Hook-Form.md). This post covers one of the most important concepts in the series, but there are still many interesting topics to explore.

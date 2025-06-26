@@ -1,4 +1,4 @@
-We continue with the **eighth installment** of this series on **React Router Data Mode**.
+We continue with the **eighth part** of this series on **React Router Data Mode**.
 This time, we'll answer two questions left pending from the previous post:
 
 - Do I need to put a form on every button?

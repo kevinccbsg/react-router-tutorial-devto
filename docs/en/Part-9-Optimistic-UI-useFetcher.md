@@ -1,4 +1,4 @@
-We continue with the **ninth installment** of this series on **React Router Data Mode**.
+We continue with the **ninth part** of this series on **React Router Data Mode**.
 This time, we'll talk about a very interesting concept that is quite easy to implement with React Router: **Optimistic UI**.
 
 ---
@@ -261,5 +261,5 @@ If you want to see this in action, I recommend this [Remix video](https://www.yo
 In the next and final post of the series, we'll talk about testing.
 A key part of any serious development, and one that is often left for last (when it shouldn't be).
 
-See you in the [next installment](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-10-Testing-Vitest-React-Testing-Library.md)!
+See you in the [next part](https://github.com/kevinccbsg/react-router-tutorial-devto/blob/main/docs/en/Part-10-Testing-Vitest-React-Testing-Library.md)!
 

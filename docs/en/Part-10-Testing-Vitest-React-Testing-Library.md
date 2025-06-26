@@ -1,4 +1,4 @@
-We’ve reached the **final installment** of this series on React Router Data Mode. In this episode, we’ll talk about **testing**—one of the most important (and often neglected) parts of development.
+We’ve reached the **final part** of this series on React Router Data Mode. In this episode, we’ll talk about **testing**—one of the most important (and often neglected) parts of development.
 
 In this case, we’ve left it for last, but in a real project, you should incorporate tests **from the very beginning**.
 
